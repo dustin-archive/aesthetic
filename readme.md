@@ -27,7 +27,7 @@ A E S T H E T I C &nbsp; c a n &nbsp; n e v e r &nbsp; g o &nbsp; w r o n g
 aesthetic('some text')
 // => 's o m e   t e x t'
 
-aesthetic('hello          world')
+aesthetic('hello        world')
 // => 'h e l l o   w o r l d'
 ```
 
