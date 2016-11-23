@@ -4,7 +4,7 @@ var Suite = require('benchmark').Benchmark.Suite
 var bench = new Suite('aesthetic')
 
 bench.add('aesthetic "world"', function () {
-  aesthetic("world")
+  aesthetic('world')
 })
 
 // Setup logger
