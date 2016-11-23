@@ -1,17 +1,17 @@
 var aesthetic = require('./')
 
-var Suite = require('benchmark').Benchmark.Suite;
-var bench = new Suite('aesthetic');
+var Suite = require('benchmark').Benchmark.Suite
+var bench = new Suite('aesthetic')
 
 bench.add('autistic "world"', function () {
   aesthetic("world")
 })
 
-// Setup logger.
+// Setup logger
 bench.on('cycle', function(event) {
-  console.log(String(event.target));
-});
+  console.log(String(event.target))
+})
 
-bench.on('error', console.error);
+bench.on('error', console.error)
 
-bench.run();
+bench.run()

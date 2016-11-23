@@ -1,8 +1,8 @@
 # A E S T H E T I C
 
-> m o s t &nbsp; e f f i c i e n t &nbsp; a e s t h e t i c s
+> m o s t &nbsp; e f f i c i e n t &nbsp; a e s t h e t i c
 
-P u t &nbsp; a e s t h e t i c s &nbsp; i n t o &nbsp; y o u r &nbsp; c o d e :
+A E S T H E T I C &nbsp; i n &nbsp; y o u r &nbsp; c o d e
 
 ```js
 var aesthetic = require('aesthetic')
@@ -21,7 +21,7 @@ $ npm install --save baggo/aesthetic
 
 ### `aesthetic(text)`
 
-S o m e &nbsp; A E S T H E T I C S &nbsp; c a n &nbsp; n e v e r &nbsp; g o &nbsp; w r o n g .
+A E S T H E T I C &nbsp; c a n &nbsp; n e v e r &nbsp; g o &nbsp; w r o n g
 
 ```js
 aesthetic('some text')
@@ -37,6 +37,6 @@ M I T &nbsp;  © &nbsp; [A u t h o r s](AUTHORS)
 
 ---
 
- [![t r a v i s](https://img.shields.io/travis/baggo/aesthetic.svg?style=flat-square)](https://travis-ci.org/jamen/aesthetic)  [![l i c e n s e](https://img.shields.io/npm/l/express.svg?style=flat-square)][package]
+[![t r a v i s](https://img.shields.io/travis/baggo/aesthetic.svg?style=flat-square)](https://travis-ci.org/jamen/aesthetic)  [![l i c e n s e](https://img.shields.io/npm/l/express.svg?style=flat-square)][package]
 
 [package]: https://npmjs.org/package/aesthetic
