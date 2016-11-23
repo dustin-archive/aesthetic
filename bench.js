@@ -12,6 +12,10 @@ bench.add('aesthetic collapse', function () {
 })
 
 bench.add('regex             ', function () {
+  'hello'.replace(/\s+/g, ' ').split('').join(' ')
+})
+
+bench.add('regex collapse    ', function () {
   'hello        world'.replace(/\s+/g, ' ').split('').join(' ')
 })
 
