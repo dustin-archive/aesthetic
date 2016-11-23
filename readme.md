@@ -1,8 +1,8 @@
 # A E S T H E T I C
 
-> m o s t   e f f i c i e n t   a e s t h e t i c s
+> m o s t &nbsp; e f f i c i e n t &nbsp; a e s t h e t i c s
 
-P u t   a e s t h e t i c s   i n t o   y o u r   c o d e :
+P u t &nbsp; a e s t h e t i c s &nbsp; i n t o &nbsp; y o u r &nbsp; c o d e :
 
 ```js
 var aesthetic = require('aesthetic')
@@ -21,7 +21,7 @@ $ npm install --save baggo/aesthetic
 
 ### `aesthetic(text)`
 
-S o m e   A E S T H E T I C S   c a n   n e v e r   g o   w r o n g .
+S o m e &nbsp; A E S T H E T I C S &nbsp; c a n &nbsp; n e v e r &nbsp; g o &nbsp; w r o n g .
 
 ```js
 aesthetic('some text')
@@ -33,7 +33,7 @@ aesthetic('hello          world')
 
 ## L i c e n s e
 
-M I T    ©    [A u t h o r s](AUTHORS)
+M I T &nbsp;  © &nbsp; [A u t h o r s](AUTHORS)
 
 ---
 
