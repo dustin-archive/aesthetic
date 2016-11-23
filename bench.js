@@ -3,7 +3,7 @@ var aesthetic = require('./')
 var Suite = require('benchmark').Benchmark.Suite
 var bench = new Suite('aesthetic')
 
-bench.add('autistic "world"', function () {
+bench.add('aesthetic "world"', function () {
   aesthetic("world")
 })
 
