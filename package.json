@@ -1,0 +1,30 @@
+{
+  "name": "aesthetic",
+  "description": "m o s t   e f f i c i e n t   a e s t h e t i c s",
+  "version": "0.1.0",
+  "homepage": "https://github.com/baggo/aesthetic",
+  "repository": "baggo/aesthetic",
+  "bugs": {
+    "url": "https://github.com/baggo/aesthetic/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "small",
+    "pointless",
+    "function",
+    "aesthetic"
+  ],
+  "devDependencies": {
+    "benchmark": "^2.1.2",
+    "tape": "^4.6.3"
+  }
+}
