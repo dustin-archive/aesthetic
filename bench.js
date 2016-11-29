@@ -1,23 +1,23 @@
-var aesthetic = require('./')
+var aesthetic_f = require('./').f
+var aesthetic_w = require('./').w
 
 var Suite = require('benchmark').Benchmark.Suite
 var bench = new Suite('aesthetic')
 
 bench.add('for           ', function () {
-  aesthetic('hello')
+  aesthetic_f('hello')
 })
 
 bench.add('for collapse  ', function () {
-  aesthetic('hello        world')
+  aesthetic_f('hello        world')
 })
 
-function aesthetic(v){var i=v.length,r='',x,l;while(i--){x=v[i];r=r?x===' '&&l===' '?r:x+' '+r:x+r;l=x}return r}
 bench.add('while         ', function () {
-  aesthetic('hello')
+  aesthetic_w('hello')
 })
 
 bench.add('while collapse', function () {
-  aesthetic('hello        world')
+  aesthetic_w('hello        world')
 })
 
 bench.add('regex         ', function () {
