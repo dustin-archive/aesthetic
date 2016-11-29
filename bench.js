@@ -1,13 +1,13 @@
-var aesthetic= require('./')
+var aesthetic = require('./')
 
 var Suite = require('benchmark').Benchmark.Suite
 var bench = new Suite('aesthetic')
 
-bench.add('while         ', function () {
+bench.add('for           ', function () {
   aesthetic('hello')
 })
 
-bench.add('while collapse', function () {
+bench.add('for collapse  ', function () {
   aesthetic('hello        world')
 })
 
