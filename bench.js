@@ -3,20 +3,23 @@ var aesthetic = require('./')
 var Suite = require('benchmark').Benchmark.Suite
 var bench = new Suite('aesthetic')
 
+var a = 'hello________world'
+var b = 'hello        world'
+
 bench.add('for           ', function () {
-  aesthetic('hello')
+  aesthetic(a)
 })
 
 bench.add('for collapse  ', function () {
-  aesthetic('hello        world')
+  aesthetic(b)
 })
 
 bench.add('regex         ', function () {
-  'hello'.replace(/\s+/g, ' ').split('').join(' ')
+  a.replace(/\s+/g, ' ').split('').join(' ')
 })
 
 bench.add('regex collapse', function () {
-  'hello        world'.replace(/\s+/g, ' ').split('').join(' ')
+  b.replace(/\s+/g, ' ').split('').join(' ')
 })
 
 // Setup logger
