@@ -1,8 +1,8 @@
 # A E S T H E T I C
 
-> m o s t &nbsp; e f f i c i e n t &nbsp; a e s t h e t i c
+> M O S T &nbsp; E F F I C I E N T &nbsp; A E S T H E T I C
 
-A E S T H E T I C &nbsp; i n &nbsp; y o u r &nbsp; c o d e
+A E S T H E T I C &nbsp; I N &nbsp; Y O U R &nbsp; C O D E
 
 ```js
 var aesthetic = require('aesthetic')
@@ -11,17 +11,17 @@ aesthetic('hello world')
 // => 'h e l l o   w o r l d'
 ```
 
-## I n s t a l l a t i o n
+## I N S T A L L A T I O N
 
 ```sh
 $ npm install --save baggo/aesthetic
 ```
 
-## U s a g e
+## U S A G E
 
 ### `aesthetic(text)`
 
-A E S T H E T I C &nbsp; c a n &nbsp; n e v e r &nbsp; g o &nbsp; w r o n g
+A E S T H E T I C &nbsp; C A N &nbsp; N E V E R &nbsp; G O &nbsp; W R O N G
 
 ```js
 aesthetic('some text')
@@ -31,12 +31,13 @@ aesthetic('hello        world')
 // => 'h e l l o   w o r l d'
 ```
 
-## L i c e n s e
+## L I C E N S E
 
-M I T &nbsp;  © &nbsp; [A u t h o r s](AUTHORS)
+M I T &nbsp; © &nbsp; [A U T H O R S](AUTHORS)
 
 ---
 
-[![t r a v i s](https://img.shields.io/travis/baggo/aesthetic.svg?style=flat-square)](https://travis-ci.org/jamen/aesthetic)  [![l i c e n s e](https://img.shields.io/npm/l/express.svg?style=flat-square)][package]
+[![t r a v i s](https://img.shields.io/travis/baggo/aesthetic.svg?style=flat-square)](https://travis-ci.org/jamen/aesthetic)
+[![l i c e n s e](https://img.shields.io/npm/l/express.svg?style=flat-square)][package]
 
-[package]: https://npmjs.org/package/aesthetic
+[package]:https://npmjs.org/package/aesthetic
