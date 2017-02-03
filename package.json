@@ -18,10 +18,11 @@
     "test": "tape test.js"
   },
   "keywords": [
-    "small",
-    "pointless",
-    "function",
-    "aesthetic"
+    "aesthetic",
+    "efficiency",
+    "humor",
+    "javascript",
+    "meme"
   ],
   "devDependencies": {
     "benchmark": "^2.1.3",

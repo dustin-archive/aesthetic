@@ -33,7 +33,7 @@ aesthetic('hello        world')
 
 ## L I C E N S E
 
-M I T &nbsp; © &nbsp; [A U T H O R S](AUTHORS)
+M I T &nbsp; © &nbsp; B A G G O
 
 ---
 
