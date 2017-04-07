@@ -13,13 +13,13 @@ module.exports = function (v) {
     x = v[i],
 
     // if result is true
-    r = r ?
+    r = r
 
       // then if current and last characters are both spaces
-      x === ' ' && l === ' ' ?
+      ? x === ' ' && l === ' '
 
         // then result (collapse extra spaces)
-        r
+        ? r
 
         // else add current character to begining of result with a space
         : x + ' ' + r
