@@ -23,7 +23,7 @@ bench.add('regex collapse', function () {
 })
 
 // Setup logger
-bench.on('cycle', function(event) {
+bench.on('cycle', function (event) {
   console.log(String(event.target))
 })
 
